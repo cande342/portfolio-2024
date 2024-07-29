@@ -7,7 +7,7 @@ export default function exp() {
   <div className="w-full">
     <h3 className="text-2xl font-semibold">Front End</h3>
     <div className="flex flex-wrap">
-      <div className="flex items-center m-5 md:flex-row md:max-w-sm cursor-pointer">
+      <div className="flex items-center m-5 md:flex-row md:max-w-sm">
         <div className="flex flex-col items-center bg-bg-200 border border-bg-100 rounded-lg shadow md:flex-row md:max-w-sm">
           <Image
             className="object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
@@ -16,7 +16,6 @@ export default function exp() {
             width={200}
             height={200}
             objectFit="cover"
-            layout="responsive"
           />
           <div className="flex flex-col justify-between p-4 leading-normal">
             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -39,7 +38,7 @@ export default function exp() {
         </div>
       </div>
 
-      <div className="flex items-center m-5 md:flex-row md:max-w-sm cursor-pointer">
+      <div className="flex items-center m-5 md:flex-row md:max-w-sm">
         <div className="flex flex-col items-center bg-bg-200 border border-bg-100 rounded-lg shadow md:flex-row md:max-w-sm">
           <Image
             className="object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
@@ -48,7 +47,6 @@ export default function exp() {
             width={200}
             height={200}
             objectFit="cover"
-            layout="responsive"
           />
           <div className="flex flex-col justify-between p-4 leading-normal">
             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -71,7 +69,7 @@ export default function exp() {
         </div>
       </div>
 
-      <div className="flex items-center m-5 md:flex-row md:max-w-sm cursor-pointer">
+      <div className="flex items-center m-5 md:flex-row md:max-w-sm">
         <div className="flex flex-col items-center bg-bg-200 border border-bg-100 rounded-lg shadow md:flex-row md:max-w-sm">
           <Image
             className="object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
@@ -80,7 +78,6 @@ export default function exp() {
             width={200}
             height={200}
             objectFit="cover"
-            layout="responsive"
           />
           <div className="flex flex-col justify-between p-4 leading-normal">
             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -106,7 +103,7 @@ export default function exp() {
 
   <div className="w-full">
     <h3 className="text-2xl font-semibold">Full Stack</h3>
-    <div className="flex items-center m-5 md:flex-row md:max-w-sm cursor-pointer">
+    <div className="flex items-center m-5 md:flex-row md:max-w-sm">
       <div className="flex flex-col items-center bg-accent-200 border border-bg-100 rounded-lg shadow md:flex-row md:max-w-sm">
         <Image
           className="object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
@@ -115,7 +112,6 @@ export default function exp() {
           width={200}
           height={200}
           objectFit="cover"
-          layout="responsive"
         />
         <div className="flex flex-col justify-between p-4 leading-normal">
           <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -130,7 +126,7 @@ export default function exp() {
             href="https://replit.com/join/rkqqvqwtyb-gcandela894"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-3 px-4 py-2 bg-bg-100 border border-bg-100 rounded text-primary-500 hover:bg-accent-100 hover:text-gray-900 text-center"
+            className="mt-3 px-4 py-2 bg-bg-100 border border-bg-100 rounded text-primary-500 hover:bg-primary-100 text-center"
           >
             Ir al proyecto
           </a>
@@ -142,7 +138,7 @@ export default function exp() {
 
   <div className="w-full">
     <h3 className="text-2xl font-semibold">Diseño</h3>
-    <div className="flex items-center m-5 md:flex-row md:max-w-sm cursor-pointer">
+    <div className="flex items-center m-5 md:flex-row md:max-w-sm">
       <div className="flex flex-col items-center bg-bg-200 border border-bg-100 rounded-lg shadow md:flex-row md:max-w-sm">
         <Image
           className="object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
@@ -151,7 +147,6 @@ export default function exp() {
           width={200}
           height={200}
           objectFit="cover"
-          layout="responsive"
         />
         <div className="flex flex-col justify-between p-4 leading-normal">
           <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -175,7 +170,7 @@ export default function exp() {
     <hr className="border-t border-gray-300 my-4" />
   </div>
 
-  <Footer></Footer>
+  <Footer />
 </section>
 
     );
