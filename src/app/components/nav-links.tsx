@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import {
   UserIcon,
-  HomeIcon,
+  AcademicCapIcon,
   FolderIcon,
 } from '@heroicons/react/24/outline';
 
@@ -17,7 +17,7 @@ const links = [
   },
   { name: 'Formación y experiencias', 
     href: '/pages/experience',
-    icon: HomeIcon },
+    icon: AcademicCapIcon },
 ];
 
 export default function NavLinks() {

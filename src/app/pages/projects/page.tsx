@@ -18,10 +18,10 @@ export default function exp() {
             objectFit="cover"
           />
           <div className="flex flex-col justify-between p-4 leading-normal">
-            <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-xl font-bold tracking-tight text-white">
               Angular - Tienda
             </h5>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-sm">
+            <p className="mb-3 font-normal text-gray-400 text-sm">
               Comunicación entre componentes con un servicio.
               PrimeNG para estilos.
               Tailwindcss.
@@ -49,10 +49,10 @@ export default function exp() {
             objectFit="cover"
           />
           <div className="flex flex-col justify-between p-4 leading-normal">
-            <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-xl font-bold tracking-tight text-white">
               Next.Js - Blog
             </h5>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-sm">
+            <p className="mb-3 font-normal text-gray-400 text-sm">
               Llamadas a api externa.
               Tailwindcss.
               Uso de Link e Image nativos de next.js.
@@ -80,10 +80,10 @@ export default function exp() {
             objectFit="cover"
           />
           <div className="flex flex-col justify-between p-4 leading-normal">
-            <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-xl font-bold tracking-tight text-white">
               Next.Js - Ruleta
             </h5>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-sm">
+            <p className="mb-3 font-normal text-gray-400 text-sm">
               Prueba de la funcionalidad de next para servicios de backend: creación de una API.
             </p>
             <a
@@ -114,7 +114,7 @@ export default function exp() {
           objectFit="cover"
         />
         <div className="flex flex-col justify-between p-4 leading-normal">
-          <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-xl font-bold tracking-tight text-white">
             Node - Express
           </h5>
           <p className="mb-3 font-normal text-gray-900 text-sm">
@@ -149,10 +149,10 @@ export default function exp() {
           objectFit="cover"
         />
         <div className="flex flex-col justify-between p-4 leading-normal">
-          <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-xl font-bold tracking-tight text-white">
             Diseño UX/UI
           </h5>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-sm">
+          <p className="mb-3 font-normal text-gray-400 text-sm">
             Entrevistas y técnicas de investigación para generar el prototipo.
             Figma. Atomic Design.
           </p>
