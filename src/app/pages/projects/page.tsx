@@ -58,7 +58,7 @@ export default function exp() {
               Uso de Link e Image nativos de next.js.
             </p>
             <a
-              href="https://apinextjs.netlify.app/"
+              href="https://blogasoiaf.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-3 px-4 py-2 bg-bg-100 border border-bg-100 rounded text-primary-500 hover:bg-primary-100 text-center"
