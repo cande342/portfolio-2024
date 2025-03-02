@@ -4,7 +4,11 @@ import { motion } from "framer-motion"
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react"
 import Image from "next/image"
 
-export default function Home() {
+interface HomeProps {
+  setActiveSection: (section: string) => void;
+}
+
+export default function Home({ setActiveSection }: HomeProps) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -12,6 +16,7 @@ export default function Home() {
       transition={{ duration: 0.8 }}
       className="flex flex-col md:flex-row items-center gap-12 min-h-[80vh]"
     >
+      {/* Contenedor de Texto */}
       <motion.div
         className="flex-1 order-2 md:order-1"
         initial={{ opacity: 0, x: -50 }}
@@ -34,9 +39,10 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-           A Junior Frontend Developer specializing in Angular as my primary framework. Passionate about crafting visually stunning and highly interactive user interfaces that enhance the user experience.
+          A Junior Frontend Developer specializing in Angular as my primary framework. Passionate about crafting visually stunning and highly interactive user interfaces that enhance the user experience.
         </motion.p>
 
+        {/* Links a redes sociales */}
         <motion.div
           className="flex gap-4 mb-8"
           initial={{ opacity: 0, y: 20 }}
@@ -44,7 +50,7 @@ export default function Home() {
           transition={{ duration: 0.8, delay: 0.8 }}
         >
           <motion.a
-            href="#"
+            href="https://github.com/cande342"
             className="p-2 bg-pink-900 text-pink-200 rounded-full hover:bg-pink-800 transition-colors"
             whileHover={{ scale: 1.1, rotate: 5 }}
             whileTap={{ scale: 0.9 }}
@@ -52,7 +58,7 @@ export default function Home() {
             <Github />
           </motion.a>
           <motion.a
-            href="#"
+            href="https://www.linkedin.com/in/candela-echaz%C3%BA-111805236/"
             className="p-2 bg-pink-900 text-pink-200 rounded-full hover:bg-pink-800 transition-colors"
             whileHover={{ scale: 1.1, rotate: 5 }}
             whileTap={{ scale: 0.9 }}
@@ -60,7 +66,7 @@ export default function Home() {
             <Linkedin />
           </motion.a>
           <motion.a
-            href="#"
+            href="mailto:gcandela894@gmail.com"
             className="p-2 bg-pink-900 text-pink-200 rounded-full hover:bg-pink-800 transition-colors"
             whileHover={{ scale: 1.1, rotate: 5 }}
             whileTap={{ scale: 0.9 }}
@@ -69,6 +75,7 @@ export default function Home() {
           </motion.a>
         </motion.div>
 
+        {/* Botón "View My Work" que cambia la sección a "projects" */}
         <motion.button
           className="px-6 py-3 bg-gradient-to-r from-pink-500 to-pink-600 text-white rounded-full flex items-center gap-2 hover:shadow-lg transition-shadow"
           whileHover={{ scale: 1.05 }}
@@ -76,11 +83,13 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
+          onClick={() => setActiveSection("projects")}
         >
           View My Work <ArrowRight className="w-4 h-4" />
         </motion.button>
       </motion.div>
 
+      {/* Imagen de perfil animada */}
       <motion.div
         className="flex-1 order-1 md:order-2 flex justify-center"
         initial={{ opacity: 0, scale: 0.8 }}
@@ -103,6 +112,7 @@ export default function Home() {
         </motion.div>
       </motion.div>
     </motion.div>
-  )
+  );
 }
+
 

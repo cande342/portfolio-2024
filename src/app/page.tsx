@@ -16,7 +16,7 @@ export default function Portfolio() {
       <Navbar activeSection={activeSection} setActiveSection={setActiveSection} />
 
       <main className="container mx-auto px-4 pt-24 pb-16">
-        {activeSection === "home" && <Home />}
+        {activeSection === "home" && <Home setActiveSection={setActiveSection} />}
         {activeSection === "experience" && <Experience />}
         {activeSection === "projects" && <Projects />}
       </main>
