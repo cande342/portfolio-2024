@@ -122,7 +122,7 @@ export default function Projects() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        Demonstrating creativity and skills through passion projects where I practice and apply what I've learned.
+        Demonstrating creativity and skills through passion projects where I practice and apply what I ve learned.
       </motion.p>
 
       <motion.div

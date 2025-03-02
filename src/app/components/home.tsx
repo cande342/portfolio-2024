@@ -29,7 +29,7 @@ export default function Home({ setActiveSection }: HomeProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Hello, I'm <br />
+          Hello, Im <br />
           <span className="text-5xl md:text-7xl">Candela</span>
         </motion.h1>
 
