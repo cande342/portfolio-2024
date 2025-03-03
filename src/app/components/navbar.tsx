@@ -24,16 +24,12 @@ export default function Navbar({ activeSection, setActiveSection }: NavbarProps)
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
-          <motion.div
-            className="text-xl font-bold text-pink-500"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Portfolio
-          </motion.div>
-
-          <ul className="flex space-x-1 bg-pink-950 p-1 rounded-full">
-            {navItems.map((item) => (
+          {/* Se eliminó la palabra "Portfolio" */}
+          <div></div>
+  
+          {/* Menú con tres opciones */}
+          <ul className="flex space-x-1 bg-pink-950 p-1 rounded-full md:ml-auto md:mr-0 mx-auto">
+            {navItems.slice(0, 3).map((item) => (
               <li key={item.id}>
                 <button
                   onClick={() => setActiveSection(item.id)}
@@ -62,4 +58,3 @@ export default function Navbar({ activeSection, setActiveSection }: NavbarProps)
     </motion.nav>
   )
 }
-

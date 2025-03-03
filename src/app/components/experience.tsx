@@ -23,7 +23,7 @@ export default function Experience() {
       period: "Nov 2024 - Present",
       location: "Remote",
       description:
-        "I perform tasks according to my role using Angular 15 and above, including fixing bugs, developing new screens and microservices, making aesthetic adjustments to components, and consuming data to create charts using Chart.js or other libraries better suited for Angular. I work on robust, enterprise-level projects for municipalities and companies, ensuring scalable and maintainable solutions.",
+        "I perform tasks according to my role using Angular 15 and above, including fixing bugs, developing new screens, creating and styling components, and consuming data to generate charts using Chart.js or other Angular-friendly libraries. I develop robust, enterprise-level applications for municipalities and companies, ensuring scalable and maintainable solutions. Additionally, I create Angular services to consume REST API endpoints efficiently.",
     },
     {
       id: 2,
