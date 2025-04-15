@@ -41,8 +41,8 @@ export default function Projects() {
       description:
         "Waiting for Riot to confirm that I won’t have any issues publishing it... I consume the Riot API to filter match data and create combinations and rankings. It features an intermediate backend with Nest.js, and the data is stored in a Firestore database. For the frontend, I used only pure CSS",
       technologies: ["Nest.Js", "Angular 19", "Firestore", "CSS", "RxJS", "Vercel"],
-      link: "#",
-      github: "#",
+      link: "https://matchmakinglol.netlify.app/",
+      github: "https://github.com/cande342/lolApp/tree/develop",
     },
     {
       id: 3,
