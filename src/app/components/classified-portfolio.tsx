@@ -5,7 +5,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { FiCode, FiPlus, FiStar } from "react-icons/fi";
-import { experiencias } from "../page";
+import { experiencias } from '../utils/experiencias';
 
 export default function Portfolio() {
 
